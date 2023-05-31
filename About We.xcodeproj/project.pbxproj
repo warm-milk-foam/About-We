@@ -14,6 +14,9 @@
 		D92249B02A27161D00A77293 /* About_WeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92249AF2A27161D00A77293 /* About_WeTests.swift */; };
 		D92249BA2A27161D00A77293 /* About_WeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92249B92A27161D00A77293 /* About_WeUITests.swift */; };
 		D92249BC2A27161D00A77293 /* About_WeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92249BB2A27161D00A77293 /* About_WeUITestsLaunchTests.swift */; };
+		D92249C92A2718F200A77293 /* ThetPaiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92249C82A2718F200A77293 /* ThetPaiView.swift */; };
+		D92249CB2A27190500A77293 /* IngoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92249CA2A27190500A77293 /* IngoView.swift */; };
+		D92249CD2A271A2600A77293 /* HongyuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92249CC2A271A2600A77293 /* HongyuView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		D92249B52A27161D00A77293 /* About WeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "About WeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D92249B92A27161D00A77293 /* About_WeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = About_WeUITests.swift; sourceTree = "<group>"; };
 		D92249BB2A27161D00A77293 /* About_WeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = About_WeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D92249C82A2718F200A77293 /* ThetPaiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThetPaiView.swift; sourceTree = "<group>"; };
+		D92249CA2A27190500A77293 /* IngoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngoView.swift; sourceTree = "<group>"; };
+		D92249CC2A271A2600A77293 /* HongyuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HongyuView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +102,9 @@
 			children = (
 				D922499E2A27161A00A77293 /* About_WeApp.swift */,
 				D92249A02A27161A00A77293 /* ContentView.swift */,
+				D92249CC2A271A2600A77293 /* HongyuView.swift */,
+				D92249C82A2718F200A77293 /* ThetPaiView.swift */,
+				D92249CA2A27190500A77293 /* IngoView.swift */,
 				D92249A22A27161C00A77293 /* Assets.xcassets */,
 				D92249A42A27161C00A77293 /* Preview Content */,
 			);
@@ -257,8 +266,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D92249C92A2718F200A77293 /* ThetPaiView.swift in Sources */,
+				D92249CB2A27190500A77293 /* IngoView.swift in Sources */,
 				D92249A12A27161A00A77293 /* ContentView.swift in Sources */,
 				D922499F2A27161A00A77293 /* About_WeApp.swift in Sources */,
+				D92249CD2A271A2600A77293 /* HongyuView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
